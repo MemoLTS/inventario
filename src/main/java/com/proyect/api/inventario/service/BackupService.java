@@ -14,11 +14,10 @@ public class BackupService {
     private final String DB_USER = "root";
 
     private final String MYSQL_DUMP_PATH =
-            "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysqldump.exe";
+        "C:\\xampp\\mysql\\bin\\mysqldump.exe";
 
     private final String BACKUP_PATH =
-            "C:\\backups\\";
-
+        "C:\\backups\\";
     @Scheduled(cron = "0 0 2 * * SUN")
     public void realizarBackup() {
     try {
