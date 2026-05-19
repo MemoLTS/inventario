@@ -99,6 +99,27 @@ public class InvController {
                 .body("Producto no encontrado");
     }
 
+    @PutMapping("/updateprod/{id}/stock")
+    public ResponseEntity<?> updateStock(
+            @PathVariable Long id,
+            @RequestBody int stock) {
+        List<Producto> productos = invservice.readAllProd();
+        for (Producto p : productos) {
+            if (p.getId().equals(id)) {
+
+                p.setStock(stock);
+
+                invservice.register(p);
+
+                return ResponseEntity.status(HttpStatus.OK)
+                        .body("Stock actualizado");
+            }
+        }
+
+        return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                .body("Producto no encontrado");
+    }
+
     // Eliminar producto
     @DeleteMapping("/deleteprod/{id}")
     public ResponseEntity<?> deleteProducto(@PathVariable Long id) {

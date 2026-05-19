@@ -13,7 +13,8 @@ public class Producto {
 
     private String nombre;
     private Double precio;
-
+    private int stock;
+    
     public Producto() {
     }
 
@@ -27,6 +28,13 @@ public class Producto {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 
     public Double getPrecio() {
