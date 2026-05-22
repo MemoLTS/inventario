@@ -36,18 +36,18 @@ public class InvService {
         List<Producto> productos = new ArrayList<>();
 
         Producto p1 = new Producto();
-        p1.setNombre("Papas Lays");
-        p1.setPrecio(1990.0);
+        p1.setNombre("gomitas");
+        p1.setPrecio(1390.0);
         p1.setStock(50);
 
         Producto p2 = new Producto();
-        p2.setNombre("cocacola");
-        p2.setPrecio(1590.0);
+        p2.setNombre("pepsi");
+        p2.setPrecio(1490.0);
         p2.setStock(100);
 
         Producto p3 = new Producto();
-        p3.setNombre("monster energy");
-        p3.setPrecio(1890.0);
+        p3.setNombre("chocolate trencito");
+        p3.setPrecio(1990.0);
         p3.setStock(30);
 
         productos.add(p1);
