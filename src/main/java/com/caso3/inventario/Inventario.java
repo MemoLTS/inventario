@@ -1,4 +1,4 @@
-package com.proyect.api;
+package com.caso3.inventario;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

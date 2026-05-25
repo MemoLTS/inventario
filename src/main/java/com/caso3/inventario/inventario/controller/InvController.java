@@ -1,4 +1,4 @@
-package com.proyect.api.inventario.controller;
+package com.caso3.inventario.inventario.controller;
 
 import java.util.List;
 
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.proyect.api.inventario.model.Producto;
-import com.proyect.api.inventario.service.InvService;
+import com.caso3.inventario.inventario.model.Producto;
+import com.caso3.inventario.inventario.service.InvService;
 
 @RestController
 @RequestMapping("/api/v1/ecomarket/inventario")

@@ -1,8 +1,9 @@
-package com.proyect.api.inventario.repository;
+package com.caso3.inventario.inventario.repository;
 
-import com.proyect.api.inventario.model.Producto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.caso3.inventario.inventario.model.Producto;
 
 
 @Repository

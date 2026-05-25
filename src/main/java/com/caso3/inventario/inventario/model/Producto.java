@@ -1,5 +1,4 @@
-package com.proyect.api.inventario.model;
-
+package com.caso3.inventario.inventario.model;
 
 import jakarta.persistence.*;
 

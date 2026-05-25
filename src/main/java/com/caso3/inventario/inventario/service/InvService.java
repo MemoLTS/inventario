@@ -1,4 +1,4 @@
-package com.proyect.api.inventario.service;
+package com.caso3.inventario.inventario.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.proyect.api.inventario.model.Producto;
-import com.proyect.api.inventario.repository.InvRepository;
+import com.caso3.inventario.inventario.model.Producto;
+import com.caso3.inventario.inventario.repository.InvRepository;
 
 @Service
 public class InvService {

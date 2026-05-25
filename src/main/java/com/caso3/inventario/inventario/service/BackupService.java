@@ -1,4 +1,4 @@
-package com.proyect.api.inventario.service;
+package com.caso3.inventario.inventario.service;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;

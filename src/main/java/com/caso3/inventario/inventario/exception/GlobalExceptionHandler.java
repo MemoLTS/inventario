@@ -1,4 +1,4 @@
-package com.proyect.api.inventario.exception;
+package com.caso3.inventario.inventario.exception;
 
 
 import java.util.HashMap;
